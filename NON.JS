@@ -10,3 +10,6 @@ if (confirm("helo thầy :))!")) {
         document.getElementById("audio").play();
     }
   }
+  #bgr {
+    innerHeight 1920px :
+  }
