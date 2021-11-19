@@ -13,3 +13,17 @@
 #nen {
     move
 }
+#br {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../anh chi trang de thuong/bgtinhyeu.jpg); 
+    background-size: cover;
+    background-position: 50%;
+    -webkit-filter: blur(4px);
+}
