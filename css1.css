@@ -1,7 +1,8 @@
 .vantrang {
     color: #FF1493;
     font: 500;
-    position: relative
+    position: absolute;
+    
 }
 
 .chu{
