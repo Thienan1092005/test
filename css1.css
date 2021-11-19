@@ -1,6 +1,7 @@
 .vantrang {
     color: #FF1493;
     font: 500;
+    position: relative
 }
 
 .chu{
@@ -12,13 +13,13 @@
 }
 
 #bgr{
-position: fixed;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background-repeat: no-repeat;
-background-image: url(../test/anhnenchitrangcute/bgtinhyeu.jpg);
-background-size: cover;
-background-position: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-image: url(../test/anhnenchitrangcute/bgtinhyeu.jpg);
+    background-size: cover;
+    background-position: 50%;
 }
