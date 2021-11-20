@@ -5,10 +5,11 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-}
+    font-family: 'Roboto', sans-serif;
+}   
 html,
 body {
-    background-image: url("./img/Untitled-1.png");
+    background-image: url("./img/btckd.mp4");
     background-color: #f60074;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,8 +37,8 @@ body {
     display: inline-block;
 }
 
-tk_mk {
-    margin-bottom: 40px;
+.tk_mk {
+    margin-bottom: 10px;
     position: relative;
 }
 .tk_mk input {
@@ -59,9 +60,11 @@ tk_mk {
     color:red
     border-right: 50px;
 }
+
 .check_me input {
     height: 10px;
     width: 10px;
+    bottom: 10px;
 }
 .tk_mk input {
     padding-left: 20px;
@@ -75,12 +78,15 @@ tk_mk {
     width: 70%;
     height: 35px;
     background-color:#ff3e98;
+    border-collapse:collapse;
 }
 .log a{
     color:white;
 }
+
 .check_me {
 float: left;
+
 }
 
 .quenmk a {
@@ -91,4 +97,7 @@ float: left;
 }
 span a {
     text-decoration: none;
+}
+.login {
+    border-collapse: collapse;
 }
