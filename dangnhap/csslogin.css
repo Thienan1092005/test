@@ -9,10 +9,10 @@ body {
 }   
 html,
 body {
-    background-image: url("./img/Untitled-1.png");
+    /* background-image: url("./img/Untitled-1.png");
     background-color: #f60074;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     align-items: center;
     position: relative;
@@ -22,7 +22,7 @@ body {
 .from_login {
     width: 300px;
     height: 400px;
-    background-image: url(./img/bgrdangnhap.jpg);
+    /* background-image: url(./img/bgrdangnhap.jpg); */
     position: relative;
     top: 50px;
     padding: 40px;
