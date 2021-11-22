@@ -7,7 +7,6 @@ body {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    lighting-color: white;
     background-color:darkmagenta
 }   
 
@@ -107,6 +106,7 @@ video {
    top: 0;
    left: 0;
    object-fit: cover;
+   scrollbar-darkshadow-color: black;
  }
  .dieukhoan a {
     color:white;
