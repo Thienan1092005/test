@@ -45,7 +45,7 @@ body {
     border-bottom: 2px solid rgb(255, 255, 255);
     border-top: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
-    border-left: 2px solid rgb(255, 255, 255);
+    
     margin-bottom:20px;
     
 }
@@ -69,7 +69,9 @@ body {
 .dieukhoan input {
     height: 10px;
     width: 10px;
-    margin: top 20px;
+    position: relative;
+    bottom: 3px;
+
 }
 button {    
     display: inline-block;  
@@ -88,15 +90,22 @@ button {
     text-transform: uppercase;  
     cursor: pointer;    
     transition: all 150ms ease-out; 
-    width: 180px;   
+    width: 200px;   
+    height: 50px;
     letter-spacing: 4px;
+    border-radius: 20px 20px 20px 20px ;
 }
 .log a{
     color:white;
+    text-decoration: none;
 }
 
 .check_me {
-float: left;
+float: right;
+position:relative;
+bottom: 20px; 
+
+
 
 }
 
@@ -119,15 +128,14 @@ video {
    top: 0;
    left: 0;
    object-fit: cover;
-   scrollbar-darkshadow-color: black;
  }
  .dieukhoan a {
     color:white;
+    text-decoration: none;
  }
  #chuatk a {
      color:white;
  }
-
 
 
 
@@ -161,3 +169,12 @@ video {
     .log button.outline:active { 
     border-color: #ea4c89;  
     color: #ea4c89;
+    }   
+.iutrang {
+    position: relative;
+    bottom: 15px;
+}
+#chuatk {
+    position: relative;
+    bottom: 20px;
+}
